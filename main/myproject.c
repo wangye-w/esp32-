@@ -3,5 +3,5 @@
 
 void app_main(void)
 {
-
+    bsp_st7789_init();
 }
