@@ -1,0 +1,8 @@
+{
+    "idf.pythonInstallPath": "/home/wangye/.espressif/python_env/idf5.4_py3.8_env/bin/python",
+    "files.associations": {
+        "stdio.h": "c",
+        "spi_master.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

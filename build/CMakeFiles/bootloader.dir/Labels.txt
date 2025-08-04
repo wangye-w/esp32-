@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/wangye/esp/esp-project/myproject/build/CMakeFiles/bootloader
+/home/wangye/esp/esp-project/myproject/build/CMakeFiles/bootloader.rule
+/home/wangye/esp/esp-project/myproject/build/CMakeFiles/bootloader-complete.rule
+/home/wangye/esp/esp-project/myproject/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/wangye/esp/esp-project/myproject/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/wangye/esp/esp-project/myproject/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/wangye/esp/esp-project/myproject/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/wangye/esp/esp-project/myproject/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/wangye/esp/esp-project/myproject/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/wangye/esp/esp-project/myproject/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
