@@ -1,15 +1,15 @@
 {
     "version":            "1.1",
-    "project_name":       "myproject",
-    "project_version":    "1",
+    "project_name":       "lcd",
+    "project_version":    "1ab4dde-dirty",
     "project_path":       "/home/wangye/esp/esp-project/myproject",
     "idf_path":           "/home/wangye/esp/esp-idf",
     "build_dir":          "/home/wangye/esp/esp-project/myproject/build",
     "config_file":        "/home/wangye/esp/esp-project/myproject/sdkconfig",
     "config_defaults":    "",
     "bootloader_elf":     "/home/wangye/esp/esp-project/myproject/build/bootloader/bootloader.elf",
-    "app_elf":            "myproject.elf",
-    "app_bin":            "myproject.bin",
+    "app_elf":            "lcd.elf",
+    "app_bin":            "lcd.bin",
     "build_type":         "flash_app",
     "git_revision":       "v5.4",
     "target":             "esp32s3",
@@ -888,14 +888,14 @@
             "target": "___idf_esp_psram",
             "prefix": "idf",
             "dir": "/home/wangye/esp/esp-idf/components/esp_psram",
-            "type": "CONFIG_ONLY",
+            "type": "LIBRARY",
             "lib": "__idf_esp_psram",
             "reqs": [],
             "priv_reqs": [ "heap", "spi_flash", "esp_mm" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "",
-            "sources": [],
+            "file": "/home/wangye/esp/esp-project/myproject/build/esp-idf/esp_psram/libesp_psram.a",
+            "sources": [ "/home/wangye/esp/esp-idf/components/esp_psram/esp_psram.c", "/home/wangye/esp/esp-idf/components/esp_psram/mmu_psram_flash.c", "/home/wangye/esp/esp-idf/components/esp_psram/esp32s3/esp_psram_impl_octal.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_ringbuf": {
@@ -1195,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/wangye/esp/esp-project/myproject/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/wangye/esp/esp-project/myproject/main/BSP_ST7789.c", "/home/wangye/esp/esp-project/myproject/main/myproject.c" ],
+            "sources": [ "/home/wangye/esp/esp-project/myproject/main/BSP_IO_Extension.c", "/home/wangye/esp/esp-project/myproject/main/BSP_ST7789.c", "/home/wangye/esp/esp-project/myproject/main/myproject.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -1240,7 +1240,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/wangye/esp/esp-project/myproject/build/esp-idf/newlib/libnewlib.a",
-            "sources": [ "/home/wangye/esp/esp-idf/components/newlib/abort.c", "/home/wangye/esp/esp-idf/components/newlib/assert.c", "/home/wangye/esp/esp-idf/components/newlib/heap.c", "/home/wangye/esp/esp-idf/components/newlib/flockfile.c", "/home/wangye/esp/esp-idf/components/newlib/locks.c", "/home/wangye/esp/esp-idf/components/newlib/poll.c", "/home/wangye/esp/esp-idf/components/newlib/pthread.c", "/home/wangye/esp/esp-idf/components/newlib/random.c", "/home/wangye/esp/esp-idf/components/newlib/getentropy.c", "/home/wangye/esp/esp-idf/components/newlib/reent_init.c", "/home/wangye/esp/esp-idf/components/newlib/newlib_init.c", "/home/wangye/esp/esp-idf/components/newlib/syscalls.c", "/home/wangye/esp/esp-idf/components/newlib/termios.c", "/home/wangye/esp/esp-idf/components/newlib/stdatomic.c", "/home/wangye/esp/esp-idf/components/newlib/time.c", "/home/wangye/esp/esp-idf/components/newlib/sysconf.c", "/home/wangye/esp/esp-idf/components/newlib/realpath.c", "/home/wangye/esp/esp-idf/components/newlib/scandir.c", "/home/wangye/esp/esp-idf/components/newlib/port/esp_time_impl.c" ],
+            "sources": [ "/home/wangye/esp/esp-idf/components/newlib/abort.c", "/home/wangye/esp/esp-idf/components/newlib/assert.c", "/home/wangye/esp/esp-idf/components/newlib/heap.c", "/home/wangye/esp/esp-idf/components/newlib/flockfile.c", "/home/wangye/esp/esp-idf/components/newlib/locks.c", "/home/wangye/esp/esp-idf/components/newlib/poll.c", "/home/wangye/esp/esp-idf/components/newlib/pthread.c", "/home/wangye/esp/esp-idf/components/newlib/random.c", "/home/wangye/esp/esp-idf/components/newlib/getentropy.c", "/home/wangye/esp/esp-idf/components/newlib/reent_init.c", "/home/wangye/esp/esp-idf/components/newlib/newlib_init.c", "/home/wangye/esp/esp-idf/components/newlib/syscalls.c", "/home/wangye/esp/esp-idf/components/newlib/termios.c", "/home/wangye/esp/esp-idf/components/newlib/stdatomic.c", "/home/wangye/esp/esp-idf/components/newlib/time.c", "/home/wangye/esp/esp-idf/components/newlib/sysconf.c", "/home/wangye/esp/esp-idf/components/newlib/realpath.c", "/home/wangye/esp/esp-idf/components/newlib/scandir.c", "/home/wangye/esp/esp-idf/components/newlib/port/xtensa/stdatomic_s32c1i.c", "/home/wangye/esp/esp-idf/components/newlib/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
         "nvs_flash": {

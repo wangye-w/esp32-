@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include "BSP_ST7789.h"
+#include "BSP_IO_Extension.h"
 
 void app_main(void)
 {
-    bsp_st7789_init();
+    pca9557_init();
+    bsp_lcd_init();
 }

@@ -1,12 +1,14 @@
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/install/strip.dir
-/home/wangye/esp/esp-project/myproject/build/CMakeFiles/rebuild_cache.dir
-/home/wangye/esp/esp-project/myproject/build/CMakeFiles/edit_cache.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/uf2.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/dfu-flash.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/dfu.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/size-files.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/size.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/menuconfig.dir
+/home/wangye/esp/esp-project/myproject/build/CMakeFiles/flash.dir
+/home/wangye/esp/esp-project/myproject/build/CMakeFiles/rebuild_cache.dir
+/home/wangye/esp/esp-project/myproject/build/CMakeFiles/edit_cache.dir
+/home/wangye/esp/esp-project/myproject/build/CMakeFiles/lcd.elf.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/confserver.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/save-defconfig.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/monitor.dir
@@ -23,8 +25,6 @@
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/size-components.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/merge-bin.dir
 /home/wangye/esp/esp-project/myproject/build/CMakeFiles/encrypted-flash.dir
-/home/wangye/esp/esp-project/myproject/build/CMakeFiles/flash.dir
-/home/wangye/esp/esp-project/myproject/build/CMakeFiles/myproject.elf.dir
 /home/wangye/esp/esp-project/myproject/build/esp-idf/CMakeFiles/install/strip.dir
 /home/wangye/esp/esp-project/myproject/build/esp-idf/CMakeFiles/install/local.dir
 /home/wangye/esp/esp-project/myproject/build/esp-idf/CMakeFiles/install.dir
@@ -699,6 +699,7 @@
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_psram/CMakeFiles/rebuild_cache.dir
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_psram/CMakeFiles/edit_cache.dir
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_psram/CMakeFiles/install/strip.dir
+/home/wangye/esp/esp-project/myproject/build/esp-idf/esp_psram/CMakeFiles/__idf_esp_psram.dir
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_lcd/CMakeFiles/install/strip.dir
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_lcd/CMakeFiles/install/local.dir
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_lcd/CMakeFiles/install.dir

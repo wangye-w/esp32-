@@ -67,6 +67,7 @@
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_http_server/libesp_http_server.a
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_https_ota/libesp_https_ota.a
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_https_server/libesp_https_server.a
+/home/wangye/esp/esp-project/myproject/build/esp-idf/esp_psram/libesp_psram.a
 /home/wangye/esp/esp-project/myproject/build/esp-idf/esp_lcd/libesp_lcd.a
 /home/wangye/esp/esp-project/myproject/build/esp-idf/protobuf-c/libprotobuf-c.a
 /home/wangye/esp/esp-project/myproject/build/esp-idf/protocomm/libprotocomm.a

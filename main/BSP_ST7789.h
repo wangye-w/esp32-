@@ -1,13 +1,14 @@
-#ifndef __BSP_ST7789_H
-#define __BSP_ST7789_H
+#pragma once
 
 #include "esp_lcd_panel_io.h"
 #include "esp_lcd_panel_vendor.h"
 #include "esp_lcd_panel_ops.h"
 #include "driver/spi_master.h"
+#include "driver/ledc.h"
 #include "driver/gpio.h"
 #include "esp_log.h"
 #include "esp_err.h"
+#include "esp_check.h"
 
 #define BSP_LCD_SPI_HOST                (SPI3_HOST)  // ESP32-S3 的 HSPI
 #define BSP_LCD_PIXEL_CLOCK_HZ          (80 * 1000 * 1000)
@@ -16,12 +17,12 @@
 #define BSP_LCD_SPI_CS                  (GPIO_NUM_NC)
 #define BSP_LCD_DC                      (GPIO_NUM_39)
 #define BSP_LCD_RST                     (GPIO_NUM_NC)
-#define BSP_LCD_BCKL                    (GPIO_NUM_42)
+#define BSP_LCD_BACKLIGHT               (GPIO_NUM_42)
+#define LCD_LEDC_CH          LEDC_CHANNEL_0
 
 #define BSP_LCD_H_RES                   (320)
 #define BSP_LCD_V_RES                   (240)
 
 
-void bsp_st7789_init(void);
-
-#endif
+esp_err_t bsp_st7789_init(void);
+esp_err_t bsp_lcd_init(void);
